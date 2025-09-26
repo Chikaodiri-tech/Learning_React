@@ -1,16 +1,9 @@
-import Hello from "./components/Hello";
+import Fruits from "./components/Fruits";
 function App() {
-  const seatNumbers = ["Your seat number is:",1, 4, 7]
   return (
     <div className="App">
-      <Hello 
-        name="Chikaodiri," 
-        message="Hi there"
-        emoji="👋!"
-        seatNumbers= {seatNumbers}
-      />
+      <Fruits/>
     </div>
   );
 }
-
 export default App;
