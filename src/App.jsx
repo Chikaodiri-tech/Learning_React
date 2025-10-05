@@ -5,6 +5,7 @@ import Welcome from "./components/Welcome";
 import Hello from "./components/Hello";
 import Ternary from "./components/Ternary";
 import RenderComponent from "./components/RenderComponent";
+import FruitsTwo from "./components/FruitsTwo";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <ConditionalComponent />
       <Ternary />
       <RenderComponent />
+      <FruitsTwo />
     </div>
   );
 }
