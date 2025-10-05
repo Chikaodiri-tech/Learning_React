@@ -7,7 +7,7 @@ export default function ConditionalComponent () {
     if (display) {
         message = <h1>This is message one been rendered!</h1>
     } else {
-        message = <h1>this is for message two!</h1>
+        message = <h1>This is for message two!</h1>
     }
     return message;
 }
