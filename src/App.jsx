@@ -7,17 +7,19 @@ import Ternary from "./components/Ternary";
 import RenderComponent from "./components/RenderComponent";
 import FruitsTwo from "./components/FruitsTwo";
 import FruitSoldOut from "./components/FruitSoldOut";
+import Message from "./components/Message";
 
 function App() {
   return (
     <div className="App">
-      <Hello name="Chikaodiri" message="Hi" emoji="👋"/>
+      <Hello name="Chikaodiri" message="Hi" emoji="👋" />
       <Fruits />
       <ConditionalComponent />
       <Ternary />
       <RenderComponent />
       <FruitsTwo />
       <FruitSoldOut />
+      <Message />
     </div>
   );
 }
