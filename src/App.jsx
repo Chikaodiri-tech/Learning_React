@@ -6,6 +6,7 @@ import Hello from "./components/Hello";
 import Ternary from "./components/Ternary";
 import RenderComponent from "./components/RenderComponent";
 import FruitsTwo from "./components/FruitsTwo";
+import FruitSoldOut from "./components/FruitSoldOut";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Ternary />
       <RenderComponent />
       <FruitsTwo />
+      <FruitSoldOut />
     </div>
   );
 }
