@@ -8,6 +8,7 @@ import RenderComponent from "./components/RenderComponent";
 import FruitsTwo from "./components/FruitsTwo";
 import FruitSoldOut from "./components/FruitSoldOut";
 import Message from "./components/Message";
+import Counter from "./components/Counter";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <FruitsTwo />
       <FruitSoldOut />
       <Message />
+      <Counter />
     </div>
   );
 }
