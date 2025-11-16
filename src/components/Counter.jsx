@@ -13,7 +13,7 @@ export default function Counter() {
     setIncrementBy(incrementBy + 1);
   }
   function decreaseIncrement() {
-    setIncrementBy(incrementBy + 1);
+    setIncrementBy(incrementBy - 1);
   }
   return (
     <div>
